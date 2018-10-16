@@ -7,7 +7,7 @@ require('electron-reload')(__dirname);
 let mainWindow;
 
 
-let str = '33';
+let str = '335';
 app.on('ready', () => {
     mainWindow = new BrowserWindow({width: 800, height: 850});
     mainWindow.loadURL(`file://${__dirname}/index.html`);
